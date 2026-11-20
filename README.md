@@ -41,7 +41,7 @@ crsim:example.test 'tag inside object'
 {
   "example":{
     "_default":"tag",
-    "_processed":"processed tag"
+    "_processed":"processed tag",
     "test":"tag inside object"
   }
 }
@@ -60,12 +60,13 @@ crsim:_example 'processed tag'
 {
   "example":{
     "_default":"tag",
-    "_processed":"processed tag"
+    "_processed":"processed tag",
     "secret":{
       "_internal":true,
       "key":"test",
-      "_default:"hi"
-    }
+      "_default":"hi",
+      "_processed":"hello"
+    },
     "test":"tag inside object"
   }
 }
