@@ -112,3 +112,32 @@ crsim:disc '3'
 crsim:discs '3'
 crsim:bpm '174'
 ```
+
+#### Definitions
+When referring to things in CRSim here's what they mean:
+##### Tree
+A CRSim Tree is simply an object (`crsim:art` would be a Tree)
+##### Array
+A CRSim Array is a traversable Array in the form of a Tree (A normal Array is referred as a JSON Array)
+
+```JSON
+{
+  "mix":{
+    "_default":2,
+    "1":{
+      "title":"title1"
+    },
+    "2":{
+      "title":"title2"
+    }
+  }
+}
+```
+
+##### Swap Metadata
+Swap Metadata is Metadata that can change slightly depending on what the User wants (this is usually limited to uri's, but can sometimes be needed for other Metadata)
+
+## Plans
+- CRSim will probably be changing a lot before [Chrysalis](https://github.com/NicholasJDi/Chrysalis) gets out of Alpha (any changes to CRSim will not affect the version number until Chrysalis reaches Beta)
+- I would like to have the CRSim site host extensive data that other sites do not provide, such as proper lyrics, and Metadata would only have one consistent version, unlike MusicBrainz and such (just to make things more simple, it would just be a single CRSim file with all outward links being Swap Metadata)
+- I would kind of like CRSim to support any media type, but for now and the foreseeable future CRSim will just be for Music
