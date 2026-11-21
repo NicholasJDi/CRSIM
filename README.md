@@ -115,6 +115,8 @@ crsim:bpm '174'
 
 #### Definitions
 When referring to things in CRSim here's what they mean:
+##### Tag
+A Tag refers to a Metadata path such as `crsim:title`, or in a smaller context, a name like `album` (also referred to as a Tag Name)
 ##### Tree
 A CRSim Tree is simply an object (`crsim:art` would be a Tree)
 ##### Array
